@@ -1,0 +1,86 @@
+
+
+.item-bar{
+  flex-direction: row;
+}
+
+.navbar-toggler-icon{
+  background-image: none;
+}
+
+.cart-btn{
+  padding: 0;
+  border: 0;
+}
+
+.nav-link{
+  font-size: 18px;
+  padding-bottom: 0;
+  color: black;
+  padding-top: 18px;
+  padding-right: 10px;
+}
+
+.bi-cart{
+  font-size: 30px;
+}
+
+.bi-bag-heart{
+  font-size: 30px;
+}
+
+.btn{
+  padding-bottom: 8px;
+}
+
+
+.card-body{
+  font-size: 12px;
+}
+
+.card-body button {
+  transition: color 0.4s, background-color 0.4s;
+}
+
+.card-body button:hover{
+  color: #0067B8;
+  background-color: white !important;
+  border: 1px white solid;
+}
+
+.card{
+  cursor: pointer;
+  height: 100%;
+}
+
+.card img{
+width : 100%;
+height : 150px;
+object-fit : contain ;
+}
+
+.card-text, .card-title{
+  overflow: hidden;
+   display: -webkit-box;
+   -webkit-line-clamp: 2; /* number of lines to show */
+   -webkit-box-orient: vertical;
+}
+
+
+
+.main-home{
+  min-height: 100vh;
+  width: 100%;
+  background-image: url(/img/Heart\ Love\ Sticker\ by\ Etude\ Malaysia\ -\ Find\ &\ Share\ on\ GIPHY.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.heading{
+  position: absolute;
+  top: 62%;
+  left: 52%;
+  transform: translate(-50%, -50%);
+}
+
+
